@@ -1,0 +1,181 @@
+body {
+    background-color: bisque;
+}
+h1 {
+    color: red;
+    font-size: 60px;
+    text-align: center;
+}
+h2 {
+    color: red;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 580px;
+}
+    
+p {
+    color: black;
+    border-left: 7px;
+    border-left-color: red;
+    padding: 10px;
+}
+b {
+    text-align: center;
+    color: cadetblue;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    background-color: #333; 
+    padding: 1rem 0; 
+}
+
+.menu ul {
+    list-style: none; 
+    display: flex; 
+    justify-content: center; 
+}
+
+.menu ul li {
+    margin: 0 15px; 
+}
+
+.menu ul li a {
+    color: white; 
+    text-decoration: none; 
+    font-size: 1.2rem; 
+    padding: 10px 20px; 
+    display: block; 
+    transition: background-color 0.3s ease; 
+}
+
+.menu ul li a:hover {
+    background-color: #f39c12;
+    border-radius: 5px; 
+    color: white; 
+}
+
+.proyecto1 {
+    text-align: right;
+}
+
+
+.proyecto2 {
+    text-align: left;
+}
+.pr2 {
+    display: block;
+    margin-left: auto;
+    margin-right: 350px;
+}
+.proyecto3 {
+    text-align: right;
+}
+
+.proyecto4 {
+    text-align: left;
+}
+
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: #f39c12;
+    padding: 5;
+}
+.foot {
+    color: #f39c12;
+}
+.proyect {
+    width: 100%;
+    border: 1px solid;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.columna {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.columna.vacia {
+    background-color: #f0f0f0;
+}
+
+.columna.imagen {
+    background-color: #e8e8e8;
+    justify-content: space-between;
+}
+
+.columna.texto {
+    background-color: #e0e0e0;
+    justify-content: space-between;
+}
+
+.apartado {
+    background-color: #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.columna.imagen .apartado img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+aside {
+    margin-right: 3px;
+    font-style: italic;
+    left: 50px;
+    top: -60px;
+    float: left;
+    position: relative;
+    top: -1820px;
+  }
+  .bloque {
+    position: absolute;  /* Posicionar el enlace de forma absoluta dentro del aside */
+    top: -50px;  /* Mueve el enlace hacia la parte superior */
+    left: 50%;  /* Centra el texto horizontalmente */
+    transform: translateX(-50%); /* Ajuste para centrar exactamente */
+    font-size: 18px; /* Tamaño de la fuente */
+    color: #333; /* Color del texto */
+    text-align: center; /* Centrado del texto */
+    background-color: #f39c12; /* Color de fondo */
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.txt {
+    position: absolute;
+    text-align: left;   /* Alinea el texto a la derecha */
+    left: 5px;         /* Ajusta este valor para añadir margen derecho */
+    top: ;           /* Ajusta la altura, puedes modificar este valor */
+    right: 10px;
+}
